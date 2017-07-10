@@ -5,6 +5,9 @@ def main():
     return render_template('index.html')
 if __name__=="__main__":
     app.run(debug=True)
+@app.route("/")
+def bucketlist():
+    return render_template('main.html')
 
 @app.route('/signup',methods=['POST'])
 def signUp():
