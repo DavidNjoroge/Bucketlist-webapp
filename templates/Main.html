@@ -6,21 +6,36 @@
     <link href="../static/list.css" rel="stylesheet">
   </head>
   <body>
-<div class="container">
-	<div class="row">
-        <div class="col-md-4"></div>
-	    <div class="col-md-4">
-            <h2>New Bucketlist</h2>
-		    <form name="checkListForm">
-			    <input type="text" name="checkListItem" placeholder="Add Item..."/>
-		    </form>
-	    	 <button type="button" id="add" class="btn btn-info">Add</button>
-             <button type="button" id="clear" title="Clear checked items" class="btn btn-default">clear</button>
-		    <br/><br/>
-		    <div class="list"></div>
-        </div>
-        <div class="col-md-4"></div>
-	</div>
+        <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" ><a href="main">Home</a></li>
+            <li class="active"><a href="#">Messages <span class="badge">24</span></a></li>
+        
+            <li><a href="#">Notification  <span class="badge">5</span></a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Python Flask App</h3>
+      </div>
+      <div class="container">
+ <div class="bs-example">
+    <div class="list-group">
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Go To the beach</h4>
+            <p class="list-group-item-text">go to mombasa to swim and visit fort jesus, ride the SGR :)</p>
+        </a>
+        <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">Climb Mt Kenya</h4>
+            <p class="list-group-item-text">climb the mountain and maybe camp</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Learn to ride a motorcycle</h4>
+            <p class="list-group-item-text"></p>
+        </a>
+    </div>
+ </div>
 </div>
   </body>
 </html>
+
